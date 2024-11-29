@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(56, 55, 55);
+}
+main{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    background-color:#ffa;
+    margin: auto;
+    margin-top: 200px;
+
+
+}
+#restort{
+    display: none;
+}
+input,#submit,h1{
+    margin-left: 20px;
+}
+#word{
+    width: 240px;
+    height: 35px;
+    background-color:#fff;
+    margin-left: 20px;
+
+}
+button,input{
+    width: 240px;
+    height: 28px;
+}
+button{
+    background-color:yellow;
+}
+#resultat{
+    margin-left: 80px;
+    transition: 3s ;
+}
